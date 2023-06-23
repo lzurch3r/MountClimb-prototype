@@ -1,3 +1,85 @@
 body {
-  
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+button {
+  border-style: hidden;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#header, #search-bar {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+#app-name {
+  grid-column: 1 2;
+}
+#account-button {
+  grid-column: 2 3;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  background-color: plum;
+}
+#content-header {
+  grid-column: 1 2;
+}
+#content-buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+#near-me {
+  grid-column: 1 2;
+  grid-row: 1 2;
+}
+#history {
+  grid-column: 2 3;
+  grid-row: 1 2;
+}
+#navigate {
+  grid-column: 1 2;
+  grid-row: 2 3;
+}
+#community {
+  grid-column: 2 3;
+  grid-row: 2 3;
+}
+
+#search-text {
+  grid-column: 1 2;
+}
+#search-icon {
+  grid-column: 2 3;
+}
+
+#nav-bar {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+}
+#nav-home {
+  grid-column: 1 2;
+}
+#nav-near-me {
+  grid-column: 2 3;
+}
+#nav-history {
+  grid-column: 3 4;
+}
+#nav-community {
+  grid-column: 4 5;
 }
